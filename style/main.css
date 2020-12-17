@@ -9,8 +9,11 @@
   font-family: gw2font;
   src: url(../style/GWTwoFont.ttf);
 }
-.hheader {
+.fullbanner {
   background-color: var(--title-color);
+}
+.hheader {
+  background-image: url(../images/header.jpg);
   width: 100%;
   height: 256px;
   display: flex;
@@ -42,11 +45,16 @@
 }
 .navbutton {
   box-sizing:border-box;
-  text-decoration: none;
+  list-style-type: none;
   display:table-cell;
-  width: 7%;
+  width: 10%;
+  padding: 12px;
   text-align: center;
 }
 .navlinktext {
+  padding: 6px;
+  text-decoration: none;
   font-family: gw2font;
+  font-size: 26px;
+  color: var(--text-color);
 }
