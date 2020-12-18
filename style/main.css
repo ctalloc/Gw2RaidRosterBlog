@@ -9,7 +9,13 @@
   font-family: gw2font;
   src: url(../style/GWTwoFont.ttf);
 }
+.bbody {
+  background-color: var(--background-color2);
+  width: 1200px;
+  margin: auto;
+}  
 .fullbanner {
+  width: 100%;
   background-color: var(--title-color);
 }
 .hheader {
@@ -31,11 +37,8 @@
   margin-top: auto;
   margin-bottom: auto;
 }
-.bbody {
-  background-color: var(--background-color2);
-}
 .navmenu {
-  width: 1264px;
+  width: 100%;
   height: 50px;
   display: flex;
   flex-direction: row;
@@ -46,7 +49,7 @@
   box-sizing:border-box;
   list-style-type: none;
   display:table-cell;
-  width: 10%;
+  width: 100px;
   padding: 12px;
   text-align: center;
 }
