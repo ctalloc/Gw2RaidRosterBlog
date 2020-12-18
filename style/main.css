@@ -37,11 +37,10 @@
 .navmenu {
   width: 1264px;
   height: 50px;
-  margin-left: auto;
-  margin-right: auto;
   display: flex;
   flex-direction: row;
   padding: 0%;
+  justify-content: center;
 }
 .navbutton {
   box-sizing:border-box;
@@ -50,6 +49,10 @@
   width: 10%;
   padding: 12px;
   text-align: center;
+}
+.navbutton:hover {
+  transition: all 0.2s;
+  transform: scale(1.1);
 }
 .navlinktext {
   padding: 6px;
