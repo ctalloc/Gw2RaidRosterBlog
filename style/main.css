@@ -9,23 +9,18 @@
   font-family: gw2font;
   src: url(../style/GWTwoFont.ttf);
 }
-<<<<<<< HEAD
 .container {
   max-width: 1264px;
   margin: auto;
 }
 .fullbanner {
   position: fixed;
-=======
+  background-color: var(--title-color);
+  width: 100%;
+  z-index: 1;
+}
 .bbody {
   background-color: var(--background-color2);
-  width: 1200px;
-  margin: auto;
-}  
-.fullbanner {
-  width: 100%;
->>>>>>> d9c8a66a1f420e72fd3bea781f4909100a95147d
-  background-color: var(--title-color);
 }
 .hheader {
   background-image: url(../images/header.jpg);
@@ -58,10 +53,6 @@
   box-sizing:border-box;
   list-style-type: none;
   display:table-cell;
-<<<<<<< HEAD
-=======
-  width: 100px;
->>>>>>> d9c8a66a1f420e72fd3bea781f4909100a95147d
   padding: 12px;
   text-align: center;
 }
@@ -95,4 +86,9 @@
 .bossbutton:hover {
   transition: all 0.1s;
   opacity: 100%;
+}
+.compsbuilds {
+  position: relative;
+  top: 400px
+
 }
