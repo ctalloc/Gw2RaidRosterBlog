@@ -9,7 +9,12 @@
   font-family: gw2font;
   src: url(../style/GWTwoFont.ttf);
 }
+.container {
+  max-width: 1264px;
+  margin: auto;
+}
 .fullbanner {
+  position: fixed;
   background-color: var(--title-color);
 }
 .hheader {
@@ -46,7 +51,6 @@
   box-sizing:border-box;
   list-style-type: none;
   display:table-cell;
-  width: 10%;
   padding: 12px;
   text-align: center;
 }
@@ -60,4 +64,24 @@
   font-family: gw2font;
   font-size: 26px;
   color: var(--text-color);
+}
+.bosstable-container {
+  position: relative;
+  top: 366px;
+}
+.bosstable{
+  border: 1px solid black;
+  margin: auto;
+  padding: 0;
+  border-spacing: 0;
+  background-color: var(--title-color)
+}
+.bossbutton {
+  width: 130px;
+  height: 60px;
+  opacity: 80%;
+}
+.bossbutton:hover {
+  transition: all 0.1s;
+  opacity: 100%;
 }
