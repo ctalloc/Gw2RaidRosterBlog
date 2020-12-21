@@ -144,24 +144,30 @@
 .comp-container {
   background-color: var(--background-color3);
   height:  inherit 100%;
-  flex-grow: 1;
   border: 1px solid black;
 }
 .boss-banner-container {
   display: block;
-  height: 50px;
+  height: 70px;
   width: 100%;
+  background-image: url(../images/header.jpg);
+  opacity: 70%;
+}
+.boss-banner-text {
+  line-height: 70px;
+  text-align: center;
+  font-family: gw2font;
+  font-size: 2.5rem;
+  font-weight: bolder;
 }
 .build-container {
   background-color: var(--background-color3);
   height:  inherit 100%;
-  flex-grow: 5;
-  border: 1px solid black;
+  flex-grow: 1;
 }
 .comp-table-slot {
   height: 50px;
   width: 55px;
-  border: 0 solid black;
 }
 .class-icon {
   height: 90%;
