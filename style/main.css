@@ -134,10 +134,43 @@
   height: auto;
   min-height: 200px;
   background-color: var(--background-color);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 .comp-container {
   background-color: var(--background-color3);
+  height:  inherit 100%;
+  flex-grow: 1;
+  border: 1px solid black;
+}
+.boss-banner-container {
+  display: block;
+  height: 50px;
+  width: 100%;
 }
 .build-container {
   background-color: var(--background-color3);
+  height:  inherit 100%;
+  flex-grow: 5;
+  border: 1px solid black;
+}
+.comp-table-slot {
+  height: 50px;
+  width: 55px;
+  border: 0 solid black;
+}
+.class-icon {
+  height: 90%;
+  margin: auto;
+}
+.comp-table-sub {
+  line-height: 50px;
+  text-align: center;
+  font-family: gw2font;
+  font-size: 1rem;
+  font-weight: bolder;
 }
