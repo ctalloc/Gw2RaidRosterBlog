@@ -2,6 +2,7 @@
   --htitle-color: rgb(134, 15, 15);
   --title-color: rgb(0, 0, 0);;
   --text-color: rgb(0, 0, 0);
+  --banner-text-color: rgb(43,43,43);
   --background-color: rgb(67, 67, 67);
   --background-color2: rgb(132, 132, 132);
   --background-color3: rgb(100,100,100);
@@ -101,7 +102,7 @@
 .title-text {
   display: inline;
   font-family: gw2font;
-  font-size: 2.5rem;
+  font-size: 3rem;
 }
 .title-home-text {
   display: ;
@@ -159,6 +160,7 @@
   font-family: gw2font;
   font-size: 2.5rem;
   font-weight: bolder;
+  color: var(--banner-text-color);
 }
 .build-container {
   background-color: var(--background-color3);
